@@ -7,6 +7,7 @@ import org.scalatest.{BeforeAndAfterEach, FunSpecLike, Matchers}
 import akka.util.Timeout
 import scala.concurrent.duration
 
+
 class AkkademyDbSpec extends FunSpecLike with Matchers with BeforeAndAfterEach {
   implicit val system: ActorSystem = ActorSystem()
 
